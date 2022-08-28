@@ -25,6 +25,7 @@ const App = () => {
         <Mensaje msg='hecho en' color='#33C4FF'/>
         <Mensaje msg='React' color='#594544'/>
         <Descripcion />
+        <Descripcion />
         <Suma a={1} b={2} />
     </div>
   );
