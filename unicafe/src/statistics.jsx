@@ -1,4 +1,4 @@
-const Statistics = ({statistics}) => {
+export const Statistics = ({statistics}) => {
     
     const all = statistics.good + statistics.neutral + statistics.bad
     const average = (statistics.good+(-statistics.bad)) / all
@@ -38,7 +38,7 @@ const Statistics = ({statistics}) => {
     );
 }
 
-export default Statistics
+
 
 
                         
