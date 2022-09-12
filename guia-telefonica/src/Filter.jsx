@@ -5,3 +5,4 @@ const Filter = ({handleFilterInput, filter}) => {
 }
 
 export default Filter
+
