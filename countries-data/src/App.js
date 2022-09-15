@@ -17,6 +17,7 @@ function App() {
     callCountriesAPI()
   }
 
+
   const countriesToBoolean = countries.map(country => (country.name.common.includes(find)))
   const countriesInTrue = countriesToBoolean.filter(country => country.valueOf() === true)
 
@@ -40,7 +41,7 @@ function App() {
                           <img src={country.flags.png} alt='Country flag'/>
                         </div> : ''))   
                   : countries.map(country => (country.name.common.includes(find) 
-                    ? <p key={country.name.common}>{country.name.common}</p> : ''))
+                    ? <p key={country.name.common}>{country.name.common} </p> : ''))
                   : 'No records found' 
                 : 'Too many matches, please specify'
               : 'No given data'
